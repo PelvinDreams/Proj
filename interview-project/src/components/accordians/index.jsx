@@ -11,7 +11,8 @@ function Accordians() {
   }
 
   function handleMultiSelection(getCurrentId) {
-    let cpyMultiple = [...multiple];  // Correct array copy
+    
+    let cpyMultiple = [...multiple];  
 
     const index = cpyMultiple.indexOf(getCurrentId);
 
